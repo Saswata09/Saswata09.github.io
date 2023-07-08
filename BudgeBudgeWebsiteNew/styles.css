@@ -478,3 +478,11 @@ body
   position: relative;
   top: 27rem;
 }
+.card p
+{
+  font-family: "Candara";
+}
+.card h4
+{
+  font-family: "Candara"
+}
