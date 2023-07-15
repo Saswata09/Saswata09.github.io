@@ -1,0 +1,265 @@
+.col-lg-6 {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.imgButton {
+  position: relative;
+}
+
+.imgButton img {
+  transform: translateY(0);
+  transition: all .4s ease-out;
+  /* border: .5em solid #e89c0c; */
+  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .3);
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .3);
+}
+.img-circle
+{
+  /* position: relative;
+  top: -50%;
+  left: 10%; */
+}
+.jn
+{
+  /* width: 180px;
+  height: 180px;
+  background-image: url('yellow.png');
+  background-size: 50px;
+  /* background-position: 100px; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */ */
+}
+.one:before {
+  content: "Doctor's Choice Refined Sunflower Oil";
+}
+
+.two:before {
+  content: "Doctor's Choice";
+}
+.drc2:before {
+  content: "Doctor's Choice Refined Sunflower Oil";
+}
+
+.drc1:before {
+  content: "Doctor's Choice Mustard Oil";
+}
+.drc3:before {
+  content: "Doctor's Choice Soybean Sunflower Oil";
+}
+.drc4:before {
+  content: "Doctor's Choice Rice Bran Oil";
+}
+.kmp1:before
+{
+  content: "KMP Kachi Ghani Mustard Oil";
+}
+.kmp2:before
+{
+  content: "KMP Mustard Oil";
+}
+.kmp3:before
+{
+  content: "KMP Lovelee Oil";
+}
+.kmp4:before
+{
+  content: "KMP Oryazanol";
+}
+.kmp5:before
+{
+  content: "KMP Soybean Oil";
+}
+.kmp6:before
+{
+  content: "KMP Gingelli";
+}
+.kmp7:before
+{
+  content: "KMP Vanaspati";
+}
+.kmp8:before
+{
+  content: "KMP Rice Bran";
+}
+.kmp9:before
+{
+  content: "KMP Lovelee Gold";
+}
+.kmp10:before
+{
+  content: "KMP Superolien";
+}
+.kmp11:before
+{
+  content: "KMP Olien";
+}
+.sathi1:before
+{
+  content: "Sathi Refined Sunflower Oil";
+}
+.sathi2:before
+{
+  content: "Sathi Soybean Oil";
+}
+.sathi3:before
+{
+  content: "Sathi Rice Bran Oil";
+}
+.sathi4:before
+{
+  content: "Sathi Mustard Oil";
+}
+.shiva1:before
+{
+  content: "Shiva Lite Vanaspati";
+}
+.shiva2:before
+{
+  content: "Shiva Gold Vanaspati";
+}
+.shiva3:before
+{
+  content: "Shiva Vanaspati";
+}
+.shiva4:before
+{
+  content: "Shiva Til Shakti";
+}
+.imgButton:before {
+  position: absolute;
+  padding: 15px 20px;
+  left: -40px;
+  bottom: -9px;
+  font-size: 13px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #7107E9;
+  background: #ffffff;
+  transition: all .4s ease-out;
+  transform: translateY(150px);
+  opacity: 0;
+  z-index: 1;
+  /* border-radius: 400px; */
+  font-weight: normal;
+  border: .2em solid #E89C0C;
+  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+}
+
+.imgButton:hover:before {
+  bottom: 45px;
+  opacity: 100;
+}
+
+.imgButton:hover img {
+  transform: translateY(-10px);
+}
+
+.floatButton {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.floatButton:hover,
+.floatButton:focus,
+.floatButton:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+.tabs
+{
+  position: absolute;
+  top: 75rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: 660px;
+  padding: 30px 20px;
+  box-shadow: 5px 5px 10px 5px #ccc;
+  /* overflow: hidden; */
+}
+.tabs .tab-header
+{
+  float: left;
+  width: 180px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  padding: 100px 0px;
+}
+.tabs .tab-header > div
+{
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #888;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.tabs .tab-header > div:hover
+{
+  color: #00acee;
+}
+.tabs .tab-header > div.active
+{
+  color: #00acee;
+}
+.tabs .tabs-header div i
+{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+/* .tabs .tab-content > div > i
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #555;
+  color: #f5f5f5;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+} */
+.tabs .tab-content > div
+{
+  display: none;
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  top: 0%;
+  /* padding: 50px 200px; */
+  /* top: -50%; */
+}
+.tabs .tab-content > div.active
+{
+  display: inline-block;
+  /* top: 0px; */
+}
+.tabs .tab-indicator
+{
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  background: #00acee;
+  left: 198px;
+  top: 130px;
+  transition: all 500ms ease-in-out;
+}
